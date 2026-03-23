@@ -26,7 +26,4 @@ This project is a simple yet powerful **port scanning tool** that allows you to 
 
 ## 📦 Installation
 
-Clone the repository:
-
-```bash
-```
+Clone the repository: "https://github.com/diptavadey/port-scanner"
