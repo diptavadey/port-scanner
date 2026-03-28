@@ -31,7 +31,7 @@ def index():
     if request.method == 'POST':
         target_ip = request.form.get('target')
         # Scanning ports 1 through 500 for speed
-        results = perform_scan(target_ip, 1, 500)
+        results = perform_scan(target_ip, 1, 65535)
         
     return render_template('scanner.html', results=results, target=target_ip)
 
